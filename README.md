@@ -1,10 +1,6 @@
 社区团购平台使用说明：
 数据库：MySQL、Redis
 
-MySQL数据库名:groupon_api，用户名:groupon _api，密码:123456，端口:3306，Host:localhost
-
-Redis数据库端口号：6379，密码：123456，Host：127.0.0.1
-
 参数配置文件：/.env
 
 MySQL数据库数据导入方式：
