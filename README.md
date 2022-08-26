@@ -5,7 +5,6 @@
 
 MySQL数据库数据导入方式：
 1、首先需要修改文件：后端接口/grouponapi.top/database (数据库)/seeders/AdminUserSeeder.php
- //创建用户
  
         $adminuser=User::create([
             'username'=>'网站管理员',
