@@ -1,0 +1,456 @@
+.all {
+  background-color: #e7f0e6;
+}
+.clear {
+  clear: both;
+}
+/* 手机端 */
+/* 顶部显示 开始 */
+.xs_top_container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: #e7f0e6;
+  padding:5px 0 10px 0;
+}
+.topTxt {
+  width: 100%;
+  height: 30px;
+}
+.name {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #00ba38;
+}
+.ZTD {
+  line-height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #00ba38;
+}
+.el-icon-arrow-left,
+.el-icon-arrow-right {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #00ba38;
+}
+/* 顶部显示 结束  */
+/* 搜索框 开始 */
+.xs_search {
+  width: 96%;
+  margin: 5px auto 0;
+}
+.xs_search i {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: #afafaf;
+}
+.xs_searchTxt {
+  width: 89.6%;
+  height: 34px;
+  padding: 0 5px 0 35px;
+  border-radius: 17px;
+  border: 1px solid #2a9b00;
+  outline: none;
+  color: #afafaf;
+}
+/* 搜索框 结束 */
+
+/* PC */
+/* 顶部导航 开始 */
+.navTop {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 40px;
+  background-color: #2a9b00;
+  cursor: default;
+}
+.navTop a {
+  margin: 0 1.6%;
+  color: #fff;
+  text-decoration: none;
+}
+.navTop a:hover {
+  color: #e7f0e6;
+}
+/* 顶部导航 结束 */
+/* 搜索框 开始 */
+.header {
+  width: 80%;
+  height: 120px;
+  margin: auto;
+}
+.logo img {
+  width: 100%;
+  margin-top: 8px;
+}
+.search {
+  height: 120px;
+  line-height: 120px;
+}
+.search i {
+  position: relative;
+  left: 35px;
+  color: #afafaf;
+}
+.searchTxt {
+  width: 70%;
+  height: 50px;
+  color: #afafaf;
+  font-size: 16px;
+  padding: 0 10px 0 40px;
+  border: 1px solid #2a9b00;
+  outline-color: #2a9b00;
+  outline: none;
+  border-radius: 25px 0 0 25px;
+}
+.searchBtn {
+  position: relative;
+  left: -5px;
+  width: 16%;
+  height: 52px;
+  border: 1px solid #2a9b00;
+  background-color: #2a9b00;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 0 26px 26px 0;
+}
+.searchBtn:hover {
+  background-color: #34a10c;
+  border: 1px solid #34a10c;
+  cursor: pointer;
+}
+/* 搜索框 结束 */
+/* 中间部分 开始 */
+.main {
+  width: 80%;
+  margin: auto;
+}
+/* 轮播图区域 开始 */
+.slideImg img{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 5px;
+}
+/* 轮播图区域 结束 */
+/* 菜单 开始 */
+.menu div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 10/9.95;
+  text-align: center;
+}
+.menu img{
+  width: 60%;
+  height: auto;
+  aspect-ratio: 1/1;
+  vertical-align: middle;
+}
+.menu a{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu p{
+  margin-top: 2%;
+}
+/* 菜单 结束 */
+/* 展示区 开始 */
+.show {
+  width: 100%;
+}
+.show a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+/* 推荐区 开始 */
+.show1 {
+  margin-top: 1.5%;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fffbef;
+}
+.show1Title {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 2px solid #2a9b00;
+}
+.showTxtBox{
+  display: inline-block;
+  width: auto;
+}
+.show1Txt {
+  float: left;
+  font-size: 1.5em;
+  color: #2a9b00;
+  font-weight: bolder;
+}
+.smallBot {
+  float: left;
+  width: 8px;
+  height: 8px;
+  background: #d8d8d8;
+  border-radius: 4px;
+  margin-top: 18.5px;
+  opacity: 0.8;
+}
+.bigBot {
+  float: left;
+  width: 10px;
+  height: 10px;
+  background: #d8d8d8;
+  border-radius: 5px;
+  margin: 18px 8px 0 8px;
+  opacity: 0.8;
+}
+.show1Content {
+  width: 100%;
+  position: relative;
+  margin-top: 0.5%;
+}
+.show1ConInner {
+  display: inline-block;
+  width: 20%;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.show1ConInner:first-child{
+  margin-left: 3px;
+}
+.show1ConInner:hover{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.show1ConInner img,.show1ConInnerPlaceholder{
+  width: 92%;
+  height: auto;
+  aspect-ratio: 1/1;
+  margin: 4% 0 0 4%;
+}
+.show1ConInner_more{
+  background-image: url('../images/home/recommend_More.png');
+  background-position: center;
+  background-size: cover;
+}
+.show1ConInner_more:hover{
+  box-shadow: none;
+}
+.parciText {
+  width: 92%;
+  height: auto;
+  aspect-ratio: 92/30;
+  margin: auto;
+}
+.proName {
+  color: #464646;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.message {
+  margin-top: 2.5%;
+  margin-bottom: 1.5%;
+  font-size: 12px;
+}
+.price {
+  color: #ff5000;
+  font-weight: bold;
+  font-size: 23px;
+}
+/* 推荐区 结束 */
+.show2ConInner {
+  padding-bottom: 10px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.show2ConInner:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.show2ConInner img {
+  width: 92%;
+  height: auto;
+  aspect-ratio: 1/1;
+  margin: 4% 0 0 4%;
+}
+/* 展示区 结束 */
+@media only screen and (max-width: 767px) {
+    .all{
+      padding-bottom: 65px;
+    }
+    .main{
+        width: 96%;
+        margin: 90px auto 0;
+    }
+    .menu_background{
+      background-color: #fffbef;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+    }
+    .menu img{
+      width: 50%;
+    }
+    .menu p{
+      font-size: 18px;
+    }
+    .show1{
+      box-shadow: 0 0 5px 1px #ccc;
+    }
+    .show1Title{
+      height: 30px;
+      line-height: 30px;
+      text-align: start;
+      padding-left: 5px;
+      border: none;
+    }
+    .show1Txt{
+      font-size: 1em;
+      line-height: 30px;
+    }
+    .show1ConInner{
+      width: 23%;
+      margin-bottom: 8px;
+    }
+    .show1ConInner .proName{
+      font-size: 12px;
+    }
+    .show1ConInner .price{
+      font-size: 18px;
+    }
+    .show2ConInner img{
+      float: left;
+      width: 40%;
+      height: auto;
+      aspect-ratio: 1/1;
+      margin: 2% 0 0 2%;
+    }
+    .show2ConInner .parciText{
+      position: relative;
+      float: right;
+      width: 54%;
+      height: auto;
+      aspect-ratio: 27/20;
+      margin: 2% 2% 0 0;
+    }
+    .show2ConInner .proName{
+      height: 42px;
+      overflow: hidden;
+      white-space: normal;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+      font-size: 16px;
+      font-weight: bold;
+      
+    }
+    .show2ConInner .price{
+      position: absolute;
+      bottom: 0;
+    }
+    .show2ConInner_shoppingCart{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 100px;
+      height: 30px;
+      color: #ffffff;
+      font-size: 12px;
+      background-color: #2a9b00;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+    }
+}
+@media only screen and (min-width: 768px) {
+  .el-col-sm-4-8 {
+    width: 20%;
+  }
+  .el-col-sm-offset-4-8 {
+    margin-left: 20%;
+  }
+  .el-col-sm-pull-4-8 {
+    position: relative;
+    right: 20%;
+  }
+  .el-col-sm-push-4-8 {
+    position: relative;
+    left: 20%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .el-col-md-4-8 {
+    width: 20%;
+  }
+  .el-col-md-offset-4-8 {
+    margin-left: 20%;
+  }
+  .el-col-md-pull-4-8 {
+    position: relative;
+    right: 20%;
+  }
+  .el-col-md-push-4-8 {
+    position: relative;
+    left: 20%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .el-col-lg-4-8 {
+    width: 20%;
+  }
+  .el-col-lg-offset-4-8 {
+    margin-left: 20%;
+  }
+  .el-col-lg-pull-4-8 {
+    position: relative;
+    right: 20%;
+  }
+  .el-col-lg-push-4-8 {
+    position: relative;
+    left: 20%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .el-col-xl-4-8 {
+    width: 20%;
+  }
+  .el-col-xl-offset-4-8 {
+    margin-left: 20%;
+  }
+  .el-col-xl-pull-4-8 {
+    position: relative;
+    right: 20%;
+  }
+  .el-col-xl-push-4-8 {
+    position: relative;
+    left: 20%;
+  }
+}

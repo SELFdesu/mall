@@ -1,0 +1,242 @@
+.clear {
+  clear: both;
+}
+.all {
+  background: url("../images/login/banner.jpg");
+  background-size: cover;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}
+.register,
+.update{
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 40px 0;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.03);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.update{
+  margin-top: 80px;
+}
+.chevronLeft{
+  display: none;
+}
+.register p,
+.update p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2a9b00;
+  text-align: center;
+}
+form {
+  width: 100%;
+  text-align: center;
+}
+::-webkit-input-placeholder {
+  color: #999;
+}
+#userName,
+#mobile,
+#mail,
+#code,
+.pwd,
+#sub {
+  width: 350px;
+  height: 45px;
+  font-size: 16px;
+  outline: none;
+}
+#userName {
+  margin-top: 30px;
+  background: url(../images/login/user.png) no-repeat left;
+  background-size: 22px;
+  background-position: top 9px left 2px;
+  box-sizing: border-box;
+  padding-left: 35px;
+  border: none;
+  color: #000;
+  border-bottom: 2px solid #2a9b00;
+}
+#mobile,
+#mail {
+  margin-top: 30px;
+  box-sizing: border-box;
+  padding-left: 35px;
+  border: none;
+  color: #000;
+  border-bottom: 2px solid #2a9b00;
+}
+.i {
+  position: relative;
+  width: 350px;
+  margin: auto;
+}
+.fa-mobile {
+  position: absolute;
+  left: 6px;
+  bottom: 8px;
+  font-size: 30px;
+  color: #2a9b00;
+}
+#mobile {
+  background-color: rgba(0, 0, 0, 0);
+}
+.fa-envelope {
+  position: absolute;
+  left: 2px;
+  bottom: 14px;
+  font-size: 22px;
+  color: #2a9b00;
+}
+#mail {
+  background-color: rgba(0, 0, 0, 0);
+}
+.check_Code {
+  position: relative;
+  width: 350px;
+  margin: auto;
+}
+#code {
+  margin-top: 25px;
+  box-sizing: border-box;
+  color: #000;
+  border: none;
+  border-bottom: 2px solid #2a9b00;
+  padding: 0 110px 0 5px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.check_Code button {
+  width: 100px;
+  position: absolute;
+  right: 0px;
+  bottom: 14px;
+  color: #2a9b00;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+.check_Code button:hover {
+  color: #3cb60f;
+  cursor: pointer;
+}
+.pwd {
+  margin-top: 30px;
+  background: url(../images/login/passwd.png) no-repeat left;
+  background-size: 22px;
+  background-position: top 5px left 2px;
+  box-sizing: border-box;
+  padding-left: 35px;
+  border: none;
+  color: #000;
+  border-bottom: 2px solid #2a9b00;
+}
+#sex{
+  margin: 30px auto 0;
+  width: 350px;
+  height: 45px;
+  line-height: 45px;
+  color: #2a9b00;
+  font-size: 18px;
+  text-align: start;
+  border-bottom: 2px solid #2a9b00;
+}
+.sexTxt{
+  font-weight: bold;
+}
+label{
+  color: #2a9b00;
+}
+#bottomText {
+  width: 350px;
+  margin: 15px auto 0px;
+}
+.text01 {
+  float: left;
+}
+.text02 {
+  float: right;
+}
+.text_left,
+.text_right {
+  color: #2a9b00;
+  text-decoration: none;
+}
+.text_left:hover,
+.text_right:hover {
+  color: #34a10c;
+  text-shadow: 0px 0px 10px rgb(52, 161, 12);
+}
+#sub {
+  margin-top: 25px;
+  width: 355px;
+  border: 1px solid #2a9b00;
+  border-radius: 5px;
+  background-color: #2a9b00;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+#sub:hover {
+  background-color: #34a10c;
+  border-color: #34a10c;
+}
+@media screen and (max-width: 767px) {
+  .register,
+  .update {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-top: 60px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  .update{
+    padding-top: 120px;
+  }
+  .chevronLeft{
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    color: #2a9b00;
+    font-size: 22px;
+  }
+  .register p,
+  .update p {
+    font-size: 26px;
+  }
+  form {
+    width: 330px;
+    margin: auto;
+  }
+  #userName,
+  .i,
+  #mobile,
+  #mail,
+  .pwd,
+  #code,
+  #bottomText,
+  .check_Code,
+  #sex {
+    width: 280px;
+  }
+  #code {
+    padding: 0 80px 0 5px;
+  }
+  #sub {
+    width: 285px;
+    font-size: 20px;
+  }
+}

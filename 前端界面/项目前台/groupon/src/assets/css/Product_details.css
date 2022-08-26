@@ -1,0 +1,280 @@
+.productdetails_main{
+    width: 100%;
+}
+.pdtdetailOneBox{
+    width: 80%;
+    margin: 1% auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.pdtdetailImg{
+    padding: 2% 0;
+    text-align: center;
+}
+.pdtdetailImg img{
+    width: 80%;
+    height: auto;
+    aspect-ratio: 1/1;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+.productdetai_info{
+    padding: 2% 4% 2% 0;
+}
+.productdetai_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.productdetai_price{
+    margin-top: 5%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5000;
+}
+.sales_comment{
+    margin-top: 4%;
+    font-size: 15px;
+    padding: 1% 2%;
+    border-top: 1px dotted rgba(0, 0, 0, 0.3);
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.sales_comment p{
+    display: inline-block;
+    width: 48%;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+}
+.sales_comment span{
+    color: #ff5000;
+}
+.sales_comment p:last-child{
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+.buy_num{
+    margin-top: 6%;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+}
+.buy_num p{
+    display: inline-block;
+}
+.buy_num p:last-child{
+    margin-left: 5%;
+}
+.productdetai_btn{
+    margin-top: 5%;
+}
+.productdetai_btn button{
+    width: 40%;
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #2a9b00;
+    border: 1px solid #2a9b00;
+    border-radius: 5px;
+}
+.productdetai_btn button:last-child{
+    margin-left: 3%;
+    background-color: #ff5000;
+    border: 1px solid #ff5000;
+}
+.productdetai_btn button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.pdtdetail_Row2Box{
+    margin-top: 2%;
+    padding-bottom: 1%;
+}
+.pdtdetail_Row2Box .el_tabs{
+    width: 92%;
+    margin: auto;
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.small_info_row{
+    border: 1px solid #e4e7ed;
+    border-top: none;
+    padding: 1% 2% 2% 2%;
+}
+.small_info{
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.small_info_info div{
+    height: 30px;
+    line-height: 30px;
+    text-indent: 0.8rem;
+    border: 1px solid #fff
+}
+.small_info_info div:nth-child(odd){
+    background-color: #f5f6f8;
+}
+.small_info_info div:nth-child(even){
+    background-color: #fafafa;
+}
+.small_info_info div:nth-child(1){
+    border-radius: 5px 0 0 0 ;
+}
+.small_info_info div:nth-child(4){
+    border-radius: 0 5px 0 0 ;
+}
+.small_info_info div:nth-child(9){
+    border-radius: 0 0 0 5px;
+}
+.small_info_info div:nth-child(12){
+    border-radius: 0 0 5px 0 ;
+}
+.smallComment_rowBox{
+    padding: 2%;
+    border: 1px solid #e4e7ed;
+    border-top: none;
+}
+.smallComment{
+    font-size:18px;
+    font-weight: bold;
+}
+.commentMsg{
+    margin-top: 1%;
+}
+
+.comment_Img img{
+    width: 100%;
+    margin-top: 2%;
+}
+.commentBox{
+    padding: 1% 2%;
+    min-height: 120px;
+    border-bottom: 1px solid #e4e7ed;
+}
+.comment_user{
+    margin-top: 1.5%;
+}
+.comment_user img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    border: 1px solid #2a9b00;
+    border-radius: 50%;
+    margin: 2% 0 0 8%;
+}
+.comment_user p,
+.comment_content p{
+    padding: 1.5% 0;
+    font-size: 16px;
+}
+.comment_star{
+    padding: 2% 0;
+}
+.comment_created_at{
+    margin-top: 2.5%;
+    text-align: right;
+}
+.comment_created_at p{
+    padding: 4% 0;
+    font-size: 17px;
+    color: #888;
+}
+@media only screen and (max-width: 767px) {
+    .pdtdetail_fixed{
+        position: fixed;
+        top: 1%;
+        left: 1%;
+        width: 35px;
+        height: 35px;
+        line-height: 40px;
+        border-radius: 25px;
+        text-align: center;
+        color: #2a9b00;
+        z-index: 999;
+        background-color: rgba(180, 178, 178, 0.1);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+    .pdtdetail_titleBox i{
+        margin-left: -0.3rem;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .pdtdetailOneBox{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    .pdtdetailImg{
+        padding: 0;
+    }
+    .pdtdetailImg img{
+        width: 100%;
+    }
+    .productdetai_name p{
+        margin-left: 3%;
+        font-size: 18px;
+    }
+    .productdetai_price p{
+        margin-left: 3%;
+        margin-top: -2%;
+        font-size: 22px;
+    }
+    .pdtdetail_Row2Box .el_tabs{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .small_info_row{
+        padding: 0 2% 2% 2%;
+    }
+    .commentBox{
+        padding: 0 2% 1% 2%;
+        min-height: 120px;
+    }
+    .comment_content p{
+        padding-left: 1%;
+    }
+    .comment_created_at{
+        margin-top: 1%;
+    }
+    .comment_created_at p{
+        padding: 0 2.5% 0 0;
+        font-size: 14px;
+    }
+    .productdetai_btn{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 5px 0;
+        z-index: 999;
+        background-color: snow;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+    }
+    .productdetai_btn a{
+        text-decoration: none;
+        color: #666;
+        font-size: 14px;
+    }
+    .home_i,.cart_i{
+        text-align: center;
+    }
+    .home_i i,
+    .cart_i i{
+        font-size: 26px;
+        color: #2a9b00;
+    }
+    .productdetai_btn button{
+        width: 48%;
+        height: 44px;
+        background-color: #2a9b00;
+        border: 1px solid #2a9b00;
+        border-radius: 0;
+    }
+    .productdetai_btn button:first-child{
+        margin-left: 2%;
+        border-radius: 22px 0 0 22px;
+}
+    .productdetai_btn button:last-child{
+        margin-left: -2%;
+        border-radius: 0 22px 22px 0;
+}
+}

@@ -1,0 +1,145 @@
+.clear{
+    clear: both;
+}
+.recommendList_main{
+    width: 100%;
+}
+.RemendListBox{
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: #fffbef;
+}
+.RemendEveryOne{
+    padding-bottom: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.RemendEveryOne:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+}
+.remendImg{
+    width: 92%;
+    margin: auto;
+}
+.remendImg img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    margin-top: 4%;
+}
+.remendTxt{
+    width: 92%;
+    margin: auto;
+}
+.remendName{
+    color: #464646;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.remendMsg p{
+    margin-top: 2.5%;
+    margin-bottom: 1.5%;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.remendPrice{
+    color: #ff5000;
+    font-weight: bold;
+    font-size: 23px;
+}
+.promptTxt{
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 767px) {
+    .search_fixed{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: #2a9b00;
+    }
+    .titleBox{
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+        margin:5px auto;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+    }
+    .RemendListBox{
+        width: 96%;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .remendImg{
+        float: left;
+        width: 40%;
+        padding-left: 1.5%;
+    }
+    .remendTxt{
+        position: relative;
+        float: left;
+        width: 57%;
+        height: auto;
+        aspect-ratio: 57/38.6;
+        margin: 1.5% 1.5% 0 1.5%;
+    }
+    .remendName{
+        height: 48px;
+        overflow: hidden;
+        white-space: normal;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .remendMsg .remendMsg1{
+        margin-top: 5%;
+        margin-bottom: 0;
+    }
+    .remendMsg .remendMsg2{
+        margin: 0;
+    }
+    .remendPrBu{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .remendPrice{
+        font-size: 26px;
+    }
+    .shoppingCart{
+        width: 100%;
+        height: 30px;
+        color: #ffffff;
+        font-size: 12px;
+        background-color: #2a9b00;
+        border: none;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .promptTxt{
+        margin-top: 25%;
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .el-col-sm-4-8 {
+        width: 20%;
+    }
+}
