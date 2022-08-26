@@ -4,7 +4,27 @@
 参数配置文件：/.env
 
 MySQL数据库数据导入方式：
-1、使用Laravel的数据库迁移，首先创建好MySQL数据库groupon_api，然后进入接口项目目录，执行 “php artisan migrate --seed” 命令。
+1、首先需要修改文件：后端接口/grouponapi.top/database (数据库)/seeders/AdminUserSeeder.php
+ //创建用户
+        $adminuser=User::create([
+            'username'=>'网站管理员',
+            'avatar'=>'default.jpg',
+            'tel'=>'',
+            'email'=>'',
+            'password'=>bcrypt('12345678'),
+            'sex'=>'0',
+        ]);
+
+        $user=User::create([
+            'username'=>'username01',
+            'avatar'=>'default.jpg',
+            'tel'=>'',
+            'email'=>'',
+            'password'=>bcrypt('12345678'),
+            'sex'=>'0',
+        ]);
+   在上述代码中添加tel、和email信息。
+2、使用Laravel的数据库迁移，首先创建好MySQL数据库groupon_api，然后进入接口项目目录，执行 “php artisan migrate --seed” 命令。
 
 前台登录：前台登录路由：/login 
 后台登录：后台登录路由：/admin/login
