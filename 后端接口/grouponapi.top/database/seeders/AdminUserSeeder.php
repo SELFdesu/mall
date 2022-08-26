@@ -18,17 +18,17 @@ class AdminUserSeeder extends Seeder
         $adminuser=User::create([
             'username'=>'网站管理员',
             'avatar'=>'default.jpg',
-            'tel'=>'13775903096',
-            'email'=>'2745980020@qq.com',
+            'tel'=>'',
+            'email'=>'',
             'password'=>bcrypt('12345678'),
             'sex'=>'0',
         ]);
 
         $user=User::create([
-            'username'=>'self',
+            'username'=>'username01',
             'avatar'=>'default.jpg',
-            'tel'=>'15961236993',
-            'email'=>'shana_cute@163.com',
+            'tel'=>'',
+            'email'=>'',
             'password'=>bcrypt('12345678'),
             'sex'=>'0',
         ]);
